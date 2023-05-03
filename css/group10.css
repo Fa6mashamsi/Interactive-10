@@ -1,0 +1,122 @@
+@charset "utf-8";
+h1 {
+    text-align: center;
+    color: #0a0a0a;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+	
+}
+
+.topbar ul{
+position: relative;  
+top: 0;
+left: 0;
+width: 100%;
+margin : 0;
+}
+.topbar ul {
+    overflow: hidden;
+    background-color: #e6e0d5;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	width: 100%;
+}
+.topbar ul li {
+    float: left;
+    width: 14%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.topbar ul li a {
+    display: block;
+    color: #0a0a0a;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.topbar ul li a:hover {
+    background-color: #f9f6f5;
+    color: #525252;
+}
+
+.topbar ul li a:focus, .topbar ul li a:active  {
+    background-color: #ddd;
+    color: black;
+}
+#sidebar {
+    position: relative;
+    background-color: #e6e0d5;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 15;
+    /*overflow-x: scroll;*/
+    padding-top: 20px;
+    margin-top: 0px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+		}
+body{
+    background-color: #877350;    /*background-image: url(image6.jfif);
+    background-size: 100% 100%;*/
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	
+	
+}
+.box {
+	
+    position: relative;
+    padding: 50pt;
+    padding-top: 20pt;
+    background-color: #f9f6f5;
+    overflow-x: auto;
+    border-radius: 25px;
+    margin: 30px;
+    margin-top: 60px;
+    width: 70%;
+    left: 60px;
+    right: 60px;
+    text-align: center;
+	font-size: 20px;
+    
+}
+#sidebar figure figcaption{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+}
+.dropdown {
+    /*display: block;
+    padding: 2px 2px;*/
+    border-right-style: inset;
+    border-left-style: inset;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  width: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  font-size: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+    background-image: url(../imagess/Opening.jpg);
+    background-size: cover;
+}
+#footer {
+    clear: both;
+    background-color: #C6BBA3;
+    color: #FFFFFF;
+    padding-left: 2%;
+    text-align: center;
+}
